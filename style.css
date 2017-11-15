@@ -1,0 +1,105 @@
+body {
+  background:#EBEBEB;
+  text-align: center;
+
+}
+
+.btn {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+.card {
+  border: solid;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+/*background, border, border-radius and box-shadow*/
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+   list-style: none;
+}
+
+h1 {
+  color: rgb(239, 26, 26);
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color:#010f01;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color:#3162e0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+#profile_pic {
+  border-radius: 50%;
+  border: 3px solid;
+  width: 150px;
+  height: 150px;
+}
+
+.movie_pic {
+  align-self: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#linkedin-logo {
+  font-size: 25px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
